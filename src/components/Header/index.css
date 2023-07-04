@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 24px;
+  width: 24px;
+  margin-right: 7px;
+}
+.logo-name {
+  color: #12022f;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+.nav-link {
+  color: #12022f;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 8px;
+}
+li {
+  list-style-type: none;
+}
